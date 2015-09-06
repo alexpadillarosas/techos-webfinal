@@ -156,7 +156,7 @@ loginFormPosition{
 }
 
 .top-session{
-    background-image: url("../image/toppage.jpg"); 
+    background-image: url("../image/toppage.jpg") ; 
     background-repeat: no-repeat;
     background-position: left;
     width: 100%;
@@ -166,4 +166,9 @@ loginFormPosition{
 .center-page{
     margin-left: 35%;
     height: 298px;
+}
+
+.center-page-signup{
+    margin-left: 35%;
+    height: 550px;
 }

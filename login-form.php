@@ -17,6 +17,12 @@ and open the template in the editor.
         <link href="css/styles.css" rel="stylesheet">
     </head>
     <body>
+        <?php 
+            include 'techos-webfinal/config.php';
+            //include 'techos-webfinal/loginFormFunction.php';
+            
+            
+            ?>
         <div class="navbar-wrapper">
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
@@ -44,7 +50,7 @@ and open the template in the editor.
                             <li><a href="#">Contact</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li><a href="signup-form.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                             <li><a href="login-form.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                         </ul>
                     </div>
@@ -71,7 +77,7 @@ and open the template in the editor.
             <div class="container col-md-12 margin-top-med ">
 
                 <div class="container col-lg-3 center-page" >
-                    <form action="loginform.php" id="loginform" method="post">
+                    <form action="techos-webfinal/loginFormFunction.php" id="loginform" method="post">
                         <div id="form-group">
                             <fieldset>
                                 <legend>Login</legend>

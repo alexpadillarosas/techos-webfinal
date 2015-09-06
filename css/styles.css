@@ -131,3 +131,26 @@ body {
   }
 
 }
+
+.margin-top-med{
+    margin-top: 10px;
+    margin-right: 5px;
+    //top:10px;
+    //position: relative;
+}
+
+
+loginFormPosition{
+        margin-right: 5px !important; 
+        float:right !important; 
+        top:10px !important; 
+        position: relative !important;
+    }
+@media (max-width: 1200px){
+    .margin-top-med{
+        float:left !important; 
+        margin-left: 5px; 
+        margin-bottom: 5px;
+
+    }
+}

@@ -10,7 +10,8 @@ and open the template in the editor.
         <title></title>
         
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        
         <!--[if lt IE 9]>
                 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -53,7 +54,9 @@ and open the template in the editor.
                       </li>
                     </ul>
                     
-                    <form class="form-inline" role="form">
+                    <!-- LOGIN FORM -->
+                    
+                    <form class="form-inline pull-right margin-top-med" role="form">
                         <div class="form-group">
                             <input type="email" class="form-control" id="email" placeholder="email">
                         </div>

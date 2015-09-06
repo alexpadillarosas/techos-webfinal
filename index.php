@@ -18,6 +18,7 @@ and open the template in the editor.
         <link href="css/styles.css" rel="stylesheet">
         
         
+        
     </head>
     <body>
         <?php
@@ -25,54 +26,41 @@ and open the template in the editor.
         ?>
         
         <div class="navbar-wrapper">
-            <div class="container">
-                <div class="navbar navbar-inverse navbar-static-top">
-
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
                     <div class="navbar-header">
-                        <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </a>
-                        <a class="navbar-brand" href="#">Bootstrap 3</a>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                        <a class="navbar-brand" href="#">WebSiteName</a>
                     </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                      <li class="active"><a href="#">Home</a></li>
-                      <li><a href="http://www.bootply.com" target="ext">About</a></li>
-                      <li><a href="#contact">Contact</a></li>
-                      <li class="dropdown"> 
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                          <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>  
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                          </ul>
-                      </li>
-                    </ul>
-                    
-                    <!-- LOGIN FORM -->
-                    
-                    <form class="form-inline pull-right margin-top-med" role="form">
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="email">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="pwd" placeholder="password">
-                        </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox"> Remember me</label>
-                        </div>
-                        <button type="submit" class="btn btn-default">login</button>
-                    </form> 
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Eletronic <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Page 1-1</a></li>
+                                    <li><a href="#">Page 1-2</a></li>
+                                    <li><a href="#">Page 1-3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Home&AMP;Office</a></li>
+                            <li><a href="#">Toys</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                    </div>
                 </div>
-                    
-          </div>
-        </div><!-- /container -->
-      </div><!-- /navbar wrapper -->
+            </nav>
+
+         
+        </div><!-- /navbar wrapper -->
 
 
       <!-- Carousel
@@ -123,6 +111,7 @@ and open the template in the editor.
         </a>
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
           <span class="icon-next"></span>
+          
         </a>  
       </div>
       <!-- /.carousel -->
@@ -196,16 +185,18 @@ and open the template in the editor.
 
       </div><!-- /.container -->
               <!-- script references -->
-                      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-                      <script src="js/bootstrap.min.js"></script>
         
-        
-        
-        
+              
+              
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/npm.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </body>
 </html>

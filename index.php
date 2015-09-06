@@ -52,7 +52,21 @@ and open the template in the editor.
                           </ul>
                       </li>
                     </ul>
-              </div>
+                    
+                    <form class="form-inline" role="form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="pwd" placeholder="password">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox"> Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-default">login</button>
+                    </form> 
+                </div>
+                    
           </div>
         </div><!-- /container -->
       </div><!-- /navbar wrapper -->

@@ -55,34 +55,46 @@ and open the template in the editor.
         </div><!-- /navbar wrapper -->
         
         
-        <div class="breadcrumb"></div>
-        
-        
-        <div class="formContainer">
-            <div class="container col-lg-3" >
-                <form action="loginform.php" id="loginform" method="post">
-                    <div id="form-group">
-                        <fieldset>
-                            <legend>Login</legend>
-                            <div id="form-group">
-                                <input type="text" class="form-control" id="username" name="username" placeholder="Username"/><br>
-                            </div>
-                            <div id="form-group">
-                                <input type="password" class="form-control" id="inputPassword" name="userpassword" placeholder="Password"/><br>
-                            </div>
-                            <div id="form-group">
-                                <input type="submit" class="btn btn-primary" id="submit" name="submit" value="submit">
-                            </div>
-                        </fieldset>
-                    </div>
-                </form>
-            </div>
+        <div class="panel panel-default">
+            <div class="top-session">
+                
+            </div>    
+            
         </div>
         
+        
+        
+        
+        
          <div class="container marketing">
+             <!-- LOGIN FORM -->
+            <div class="container col-md-12 margin-top-med ">
+
+                <div class="container col-lg-3 center-page" >
+                    <form action="loginform.php" id="loginform" method="post">
+                        <div id="form-group">
+                            <fieldset>
+                                <legend>Login</legend>
+                                <div id="form-group">
+                                    <input type="text" class="form-control" id="username" name="username" placeholder="Username"/><br>
+                                </div>
+                                <div id="form-group">
+                                    <input type="password" class="form-control" id="inputPassword" name="userpassword" placeholder="Password"/><br>
+                                </div>
+                                <div id="form-group">
+                                    <input type="submit" class="btn btn-primary" id="submit" name="submit" value="submit">
+                                </div>
+                            </fieldset>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- end of Login Form-->
+             
             
              <!-- FOOTER -->
-            <footer>
+            <footer class="bottom">
+              <br/>  
+              <br/>  
               <p class="pull-right"><a href="#">Back to top</a></p>
               <p>This Bootstrap layout is compliments of Bootply. · <a href="http://www.bootply.com/62603">Edit on Bootply.com</a></p>
             </footer>

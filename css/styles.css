@@ -154,3 +154,16 @@ loginFormPosition{
 
     }
 }
+
+.top-session{
+    background-image: url("../image/toppage.jpg"); 
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    height: 200px;    
+}
+
+.center-page{
+    margin-left: 35%;
+    height: 298px;
+}

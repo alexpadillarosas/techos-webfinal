@@ -168,7 +168,21 @@ loginFormPosition{
     height: 298px;
 }
 
+
+
+
 .center-page-signup{
     margin-left: 35%;
     height: 550px;
+}
+
+@media (max-width: 1183px) {
+    .center-page{
+        margin-left: 2%;
+    }
+    .center-page-signup{
+    margin-left: 2%;
+    height: 550px;
+    }
+
 }

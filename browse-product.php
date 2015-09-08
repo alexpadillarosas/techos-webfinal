@@ -120,30 +120,115 @@ and open the template in the editor.
       <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
+            
+            
+<!-- LIST OF products HERE just change all of the codes down here using the same classes and elements 
+    CLASSES SHOULD BE KEPT AS THEY ARE ALL FROM BOOTSTRAP
+    the classes table-responsive and table in the next two elements are important to keep the table responsive--> 
+    
+        <div class="table-responsive">
+            <table class="table">
 
-      <div class="container marketing">
+                <!-- NEW ROW FOR THE TABLE WITH THE PRODUCTS -->
+                <tr class="bottomMargin">    
+                    <td id="list-product-browse">
+                        <div class="col-md-12 text-center">
+                            <!-- Dynamic content according to each row-->
+                            <img class="img-circle" src="http://placehold.it/140x140">
+                            <h2>Technology</h2>
+                            <p>Tablets, phones, laptops. The new 3 promises to be mobile friendly from the start.</p>
+                            <!-- ROW THREE BUTTONS -->
+                            <!-- ROW THREE BUTTONS -->
+                            <p>
+                                <a class="btn btn-success" href="#">Shop »</a>
+                                <a class="btn btn-success" href="#">Add to Cart »</a>
+                                <a class="btn btn-primary " href="#">Details »</a>
+                            </p>
+                            <!-- Finish three buttons -->
 
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <img class="img-circle" src="http://placehold.it/140x140">
-            <h2>Technology</h2>
-            <p>Tablets, phones, laptops. The new 3 promises to be mobile friendly from the start.</p>
-            <p><a class="btn btn-default" href="#">View details »</a></p>
-          </div>
-          <div class="col-md-4 text-center">
-            <img class="img-circle" src="http://placehold.it/140x140">
-            <h2>Home & Office</h2>
-            <p>There is now just one percentage-based grid for Bootstrap 3. Customize for fixed widths.</p>
-            <p><a class="btn btn-default" href="#">View details »</a></p>
-          </div>
-          <div class="col-md-4 text-center">
-            <img class="img-circle" src="http://placehold.it/140x140">
-            <h2>Toys</h2>
-            <p>Improved support for mixins make the new Bootstrap 3 easier to customize.</p>
-            <p><a class="btn btn-default" href="#">View details »</a></p>
-          </div>
-        </div><!-- /.row -->
+                        </div>
+                    </td>
+
+                    <td id="list-product-browse">
+                        <div class="col-md-12 text-center">
+                          <img class="img-circle" src="http://placehold.it/140x140">
+                          <h2>Home & Office</h2>
+                          <p>There is now just one percentage-based grid for Bootstrap 3. Customize for fixed widths.</p>
+                          <!-- ROW THREE BUTTONS -->
+                            <p>
+                                <a class="btn btn-success" href="#">Shop »</a>
+                                <a class="btn btn-success" href="#">Add to Cart »</a>
+                                <a class="btn btn-primary " href="#">Details »</a>
+                            </p>
+                            <!-- Finish three buttons -->
+                        </div>
+                    <td>
+                    <td>    
+                        <div class="col-md-12 text-center">
+                            <img class="img-circle" src="http://placehold.it/140x140">
+                            <h2>Toys</h2>
+                            <p>Improved support for mixins make the new Bootstrap 3 easier to customize.</p>
+                             <!-- ROW THREE BUTTONS -->
+                            <!-- ROW THREE BUTTONS -->
+                            <p>
+                                <a class="btn btn-success" href="#">Shop »</a>
+                                <a class="btn btn-success" href="#">Add to Cart »</a>
+                                <a class="btn btn-primary " href="#">Details »</a>
+                            </p>
+                            <!-- Finish three buttons -->
+                        </div>
+                    </td>    
+                </tr>
+
+                
+                <!-- NEW ROW FOR THE TABLE WITH THE PRODUCTS -->
+                <tr>    
+                    <td id="list-product-browse">
+                        <div class="col-md-12 text-center">
+                          <img class="img-circle" src="http://placehold.it/140x140">
+                          <h2>Technology</h2>
+                          <p>Tablets, phones, laptops. The new 3 promises to be mobile friendly from the start.</p>
+                          <!-- ROW THREE BUTTONS -->
+                            <p>
+                                <a class="btn btn-success" href="#">Shop »</a>
+                                <a class="btn btn-success" href="#">Add to Cart »</a>
+                                <a class="btn btn-primary " href="#">Details »</a>
+                            </p>
+                            <!-- Finish three buttons -->
+                        </div>
+                    </td>
+
+                    <td id="list-product-browse">
+                        <div class="col-md-12 text-center">
+                          <img class="img-circle" src="http://placehold.it/140x140">
+                          <h2>Home & Office</h2>
+                          <p>There is now just one percentage-based grid for Bootstrap 3. Customize for fixed widths.</p>
+                          <!-- ROW THREE BUTTONS -->
+                            <p>
+                                <a class="btn btn-success" href="#">Shop »</a>
+                                <a class="btn btn-success" href="#">Add to Cart »</a>
+                                <a class="btn btn-primary " href="#">Details »</a>
+                            </p>
+                            <!-- Finish three buttons -->
+                        </div>
+                    <td>
+                    <td>    
+                        <div class="col-md-12 text-center">
+                            <img class="img-circle" src="http://placehold.it/140x140">
+                            <h2>Toys</h2>
+                            <p>Improved support for mixins make the new Bootstrap 3 easier to customize.</p>
+                            <!-- ROW THREE BUTTONS -->
+                            <p>
+                                <a class="btn btn-success" href="#">Shop »</a>
+                                <a class="btn btn-success" href="#">Add to Cart »</a>
+                                <a class="btn btn-primary " href="#">Details »</a>
+                            </p>
+                            <!-- Finish three buttons -->
+                        </div>
+                    </td>    
+                </tr>
+            </table>
+        <!-- /PRODUCT BROWSE ENDS HERE -->
 
 
         <!-- START THE FEATURETTES -->
@@ -157,7 +242,7 @@ and open the template in the editor.
 
         <!-- FOOTER -->
         <footer>
-          <p class="pull-right"><a href="#">Back to top</a></p>
+          <p class="pull-right"><a href="#myNavBar">Back to top</a></p>
           <p>This Bootstrap layout is compliments of Bootply. · <a href="http://www.bootply.com/62603">Edit on Bootply.com</a></p>
         </footer>
 
